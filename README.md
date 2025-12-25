@@ -20,7 +20,7 @@ npm install
 ```
 npx wrangler pages dev . --compatibility-date=2024-06-20
 ```
-Open the printed localhost URL to interact with the UI. The `_worker.ts` entry file runs the Hono app for all requests.
+Open the printed localhost URL to interact with the UI. The static `index.html` is served by Pages; the `_worker.ts` entry handles `/api/*` routes and falls back to `env.ASSETS` for everything else.
 
 ## Database setup (Cloudflare D1, binding `db`)
 
