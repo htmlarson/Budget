@@ -1,0 +1,5 @@
+node_modules
+logs
+wrangler-state.toml
+.wrangler
+npm-debug.log*

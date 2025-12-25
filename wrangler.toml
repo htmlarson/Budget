@@ -1,0 +1,8 @@
+name = "budget-app"
+main = "_worker.ts"
+compatibility_date = "2024-06-20"
+
+[[d1_databases]]
+binding = "db"
+database_name = "budget"
+database_id = "00000000-0000-0000-0000-000000000000"
